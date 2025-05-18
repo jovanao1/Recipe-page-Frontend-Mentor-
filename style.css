@@ -1,0 +1,93 @@
+* {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.sve {
+    margin-left: 0;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    height: 1900px;
+    border-radius: 20px;
+}
+
+#naslovna {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.mainImg {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#tittle {
+    color: black;
+    font-size: 35px;
+    margin-left: 0;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#about {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    font-size: medium;
+    color: grey;
+}
+
+#prepTime {
+    color: purple;
+    font-size: large;
+}
+
+#ruzicasto {
+    color: grey;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(233, 213, 233);
+}
+
+#sastojciN, #instrukcijeN, #nutritionN, #a, #b, #c, #d {
+    color: brown;
+    font-size: large;
+}
+
+.sastojci, .instrukcije, .nutrition {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    color: grey;
+}
+
+ol li::marker{
+    color: brown;
+    font-weight: bold;
+}
+
+table td{
+    border-bottom: 1px solid grey;
+}
+
+@media screen and (max-width: 750px) {
+  .sve {
+    width: 100%;
+    height: 3000px;
+  }
+  .mainImg,#naslovna {
+    width: 95%;
+    height: auto;
+    display: block;
+  }
+}
+
